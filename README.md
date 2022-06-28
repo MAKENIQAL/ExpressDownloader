@@ -1,6 +1,6 @@
 # ExpressDownloader
 The simplest library to handle downloads via system DownloadManager
-### Features or ExpressDownloader library
+### Features of ExpressDownloader library
 * ExpressDownloader can be used to download any type of files.
 * This file downloader library uses DownloadManager class.
 * Supports http response.
