@@ -7,3 +7,11 @@ The simplest library to handle downloads via system DownloadManager
 * We can easily enqueue a file.
 * ExpressDownloader gives callbacks for onDownloadQueued, onComplete, onDownloadFailed.
 * We can open files after downloading.
+### Implementing the library
+Add this in settings.gradle (project)
+```groovy
+repositories {
+			...
+			maven { url 'https://jitpack.io' }
+		}
+```
