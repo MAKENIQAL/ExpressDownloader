@@ -9,9 +9,15 @@ The simplest library to handle downloads via system DownloadManager
 * We can open files after downloading.
 ### Implementing the library
 Add this in settings.gradle
-```groovy
+```gradle
 repositories {
    ...
    maven { url 'https://jitpack.io' }
+}
+```
+Add the dependency in build.gradle (module)
+```gradle
+dependencies {
+	  implementation 'com.github.MAKENIQAL:ExpressDownloader:Latest version'
 }
 ```
