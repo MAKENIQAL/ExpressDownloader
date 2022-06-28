@@ -18,6 +18,6 @@ repositories {
 Add the dependency in build.gradle (module)
 ```gradle
 dependencies {
-	  implementation 'com.github.MAKENIQAL:ExpressDownloader:Latest version'
+   implementation 'com.github.MAKENIQAL:ExpressDownloader:Latest version'
 }
 ```
