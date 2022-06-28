@@ -21,3 +21,11 @@ dependencies {
    implementation 'com.github.MAKENIQAL:ExpressDownloader:Latest version'
 }
 ```
+
+## Using ExpressDownloader Library in your Android application
+Add all required permissions
+```xml
+<uses-permission android:name="android.permission.INTERNET" />
+<uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+<uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+```
