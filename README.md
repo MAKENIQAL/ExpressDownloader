@@ -58,3 +58,47 @@ new ExpressDownloader()
                     }
                 });
 ```                
+Or,
+```
+ExpressDownloader downloader = new ExpressDownloader();
+        downloader.prepare(userAgent, contentDisposition,mimeType);
+        
+        ExpressListener expressListener = new ExpressListener() {
+            @Override
+            public void onDownloadQueued() {
+                
+            }
+
+            @Override
+            public void onDownloadComplete(String filename) {
+
+            }
+
+            @Override
+            public void onDownloadFailed(String errorMessage) {
+
+            }
+        };
+        
+        downloader.startDownload(url,expressListener);ExpressDownloader downloader = new ExpressDownloader();
+        downloader.prepare(userAgent, contentDisposition,mimeType);
+        
+        ExpressListener expressListener = new ExpressListener() {
+            @Override
+            public void onDownloadQueued() {
+                
+            }
+
+            @Override
+            public void onDownloadComplete(String filename) {
+
+            }
+
+            @Override
+            public void onDownloadFailed(String errorMessage) {
+
+            }
+        };
+        
+        downloader.startDownload(url,expressListener);
+```        
