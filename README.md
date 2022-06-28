@@ -11,7 +11,7 @@ The simplest library to handle downloads via system DownloadManager
 Add this in settings.gradle (project)
 ```groovy
 repositories {
- ...
- maven { url 'https://jitpack.io' }
+   ...
+   maven { url 'https://jitpack.io' }
 }
 ```
