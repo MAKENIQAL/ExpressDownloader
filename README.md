@@ -1,2 +1,2 @@
 # ExpressDownloader
-The simple library to download via system DownloadManager
+The simplest library to handle downloads via system DownloadManager
