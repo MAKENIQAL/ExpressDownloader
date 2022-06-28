@@ -29,9 +29,9 @@ Add all required permissions
 <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
 <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
 ```
-Then initialize it with Context :
+Then initialize it with Context for the first time :
 ```java
-Express.init(this)
+Express.init(this)// Do not init again.
 ```
 Or,
 ```java
