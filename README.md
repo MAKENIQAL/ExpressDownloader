@@ -37,3 +37,24 @@ Or,
 ```java
 Express.init(getApplicationContext())
 ```
+Downloading a file
+```java
+new ExpressDownloader()
+                .prepare(userAgent,contentDisposition,mimeType)
+                .startDownload(url, new ExpressListener() {
+                    @Override
+                    public void onDownloadQueued() {
+                        
+                    }
+
+                    @Override
+                    public void onDownloadComplete(String filename) {
+
+                    }
+
+                    @Override
+                    public void onDownloadFailed(String errorMessage) {
+
+                    }
+                });
+```                
