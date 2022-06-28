@@ -59,7 +59,7 @@ new ExpressDownloader()
                 });
 ```                
 Or,
-```
+```java
 ExpressDownloader downloader = new ExpressDownloader();
         downloader.prepare(userAgent, contentDisposition,mimeType);
         
